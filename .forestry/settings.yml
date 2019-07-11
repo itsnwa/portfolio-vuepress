@@ -38,3 +38,5 @@ build:
   preview_output_directory: ".vuepress/dist"
   output_directory: ".vuepress/dist"
   instant_preview_command: vuepress dev -p 8080 -h 0.0.0.0
+  preview_docker_image: forestryio/build:latest
+  mount_path: "/opt/buildhome/repo"
